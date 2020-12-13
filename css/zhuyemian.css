@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    height: 1022px;
+    background-size: 100% 100%;
+    background-image: url("../img/2beijing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#dingchuang{
+    background-color: sienna;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    z-index: 90;/*浮起的层数*/
+    box-shadow: black 0px 0px 10px;/*阴影*/
+}
+#dingchuang ul{
+    display: table;
+    margin: 10px auto;
+}
+#dingchuang ul li{
+    border: 1px aqua;
+    text-align: center;
+    float: left;
+    *float:none;
+    *zoom:1;
+    margin-right: 60px;
+}
+#tou{
+    font-size: 30px;
+    list-style: none;
+}
+#dingge-wei{
+    background-color: sienna;
+    height: 80px;
+    width: 100%;
+    z-index: 90;
+}
+#dingge{
+    height: 100px;
+    width: 100%;
+    background-color: mistyrose;
+    z-index: 90;
+    box-shadow: darksalmon 0px 0px 10px;
+}
+#neiron{
+    background-color: peachpuff;
+    width: 60%;
+    height: 1000px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: black 0px 0px 10px;
+}
+#diceng{
+    background-color:cadetblue;
+    width: 100%;
+    position:absolute;
+    top: 195%;
+    height: 80px;
+    z-index: 2;
+}
